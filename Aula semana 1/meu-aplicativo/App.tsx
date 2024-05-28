@@ -1,9 +1,10 @@
 import React from 'react';
-import { ActivityIndicator } from 'react-native';
+
 import { ThemeProvider } from 'styled-components'
 import { useFonts, Roboto_700Bold, Roboto_500Medium, Roboto_400Regular } from '@expo-google-fonts/roboto'
 import Home from './src/screens/Home';
 import theme from './src/theme'
+import { Loading } from './src/componentes/loading';
 
 export default function App() {
 
@@ -11,7 +12,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      { fontsLoaded ? <Home/> : <ActivityIndicator/> }
+      { !fontsLoaded ? <Home/> :  <Loading/>}
     </ThemeProvider>
     
 
