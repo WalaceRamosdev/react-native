@@ -37,3 +37,9 @@ fontSize: {
 // lg (large): 20
 // xl (extra large): 24
 // xxl (double extra large): 32
+
+/* Link para o figma - 
+
+https://www.figma.com/design/sxTQKNr2egDoBTHoYD0txH/MyMoney?node-id=0-1&t=ouTGnZnjgfF7YJ9V-0 
+
+*/
